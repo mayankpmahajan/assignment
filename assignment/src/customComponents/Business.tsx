@@ -2,16 +2,16 @@ import React from "react";
 
 const Business = () => {
   return (
-    <main className="relative z-10 bg-white w-[60vw] rounded-md mt-[-4rem] p-4 h-fit">
+    <main className="relative z-10 w-full bg-white  rounded-xl mt-[-2rem] md:mt-[-4rem] p-4 h-fit">
       <h1 className="text-xl font-semibold">Company's Business</h1>
 
       <section className="mt-4 font-medium">
         <h2>Company Type</h2>
 
         <section className="flex flex-row space-x-2 text-sm mt-2 font-normal">
-          <div className="rounded-3xl shadow-2xl w-fit border-[1px] border-gray-300 py-1 px-2">Contact Manufacturing</div>
-          <div className="rounded-3xl shadow-2xl w-fit border-[1px] border-gray-300 py-1 px-2">Export</div>
-          <div className="rounded-3xl shadow-2xl w-fit border-[1px] border-gray-300 py-1 px-2">White Level Brands</div>
+          <div className="rounded-3xl shadow-2xl w-fit border-[1px] border-gray-300 py-1 px-2 flex justify-center items-center">Contact Manufacturing</div>
+          <div className="rounded-3xl shadow-2xl w-fit border-[1px] border-gray-300 py-1 px-2 flex justify-center items-center">Export</div>
+          <div className="rounded-3xl shadow-2xl w-fit border-[1px] border-gray-300 py-1 px-2 flex justify-center items-center">White Level Brands</div>
         </section>
       </section>
 

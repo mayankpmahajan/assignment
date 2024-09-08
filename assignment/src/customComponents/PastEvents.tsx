@@ -27,7 +27,7 @@ const PastEvents = () => {
   const hasMoreToShow = visibleEvents.length < events.length;
 
   return (
-    <main className="bg-white w-[37vw] rounded-md mt-4 p-4">
+    <main className="bg-white w-full rounded-xl mt-4 p-4">
       <h1 className="text-xl font-semibold">Zaloni Past Exhibitions</h1>
 
       <div className="flex flex-col space-y-4">

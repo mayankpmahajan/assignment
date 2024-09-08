@@ -1,6 +1,6 @@
-import Navbar from "./components/Navbar"
-import Hero from "./components/Hero"
-import Info from "./components/Info"
+import Navbar from "./customComponents/Navbar"
+import Hero from "./customComponents/Hero"
+import Info from "./customComponents/Info"
 
 function App() {
 

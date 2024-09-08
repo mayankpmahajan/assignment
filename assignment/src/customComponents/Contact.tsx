@@ -2,11 +2,11 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <main className='bg-white w-[37vw] relative z-10 mt-[-4rem] rounded-md p-4'>
+    <main className='bg-white w-full relative z-10 mt-[-4rem] rounded-xl p-4'>
 
         <h1 className='text-xl font-semibold' >Exhibhitor Contact</h1>
 
-        <section className='mt-4 grid grid-cols-3 gap-4'>
+        <section className='mt-4 grid grid-cols-3 gap-4 text-xs'>
             
                 <div className=''>Name</div>
                 <div className='col-span-2 font-medium'>Rajesh Kumar</div>
