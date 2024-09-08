@@ -1,4 +1,5 @@
 import React from 'react'
+import ShimmerButton from '../components/magicui/shimmer-button'
 
 const Contact = () => {
   return (
@@ -41,12 +42,19 @@ const Contact = () => {
                 <img src="./icons/instagram.png" alt="instagram logo" className='h-8'/>
                 <img src="./icons/linkedin.png" alt="linkedin logo" className='h-8'/>
                 <img src="./icons/x.png" alt="x logo" className='h-8'/>
-
-
-
             </section>
 
-            {/* button */}
+            <section className='col-span-3'>
+            <ShimmerButton 
+            background="rgba(123,14,240,1)"
+            type="button"
+            className="h-10 w-full flex rounded-md border-black border-[1px] items-center justify-center"
+          >
+            <h1 className="">Contact Us</h1>
+          </ShimmerButton>
+            </section>
+
+            
         </section>
     </main>
   )
