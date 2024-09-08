@@ -4,11 +4,8 @@ import Contact from './Contact'
 import Overview from './Overview'
 import PastEvents from './PastEvents'
 import Gallery from './Gallery'
-<<<<<<< HEAD
 import Files from './Files'
-=======
 import Members from './Members'
->>>>>>> 99fad9b2720f8d24bdca0153479cc2993ff37345
 
 const Info = () => {
   return (
@@ -37,13 +34,8 @@ const Info = () => {
         <section className='flex flex-col space-y-4 md:basis-2/3'>
             <Business></Business>
             <Overview></Overview>
-<<<<<<< HEAD
-            <Gallery></Gallery>
-            <Files></Files>
-=======
             {/* <Gallery></Gallery> */}
-
->>>>>>> 99fad9b2720f8d24bdca0153479cc2993ff37345
+            <Files></Files>
         </section>
 
         <section className='flex flex-col space-y-4 md:basis-1/3'>

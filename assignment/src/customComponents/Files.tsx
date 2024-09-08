@@ -33,8 +33,8 @@ const Files = () => {
       {/* Grid layout for cards */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {visibleEvents.map((event, index) => (
-          <div key={index} className="bg-white border border-gray-300 p-4 rounded-md shadow-md">
-            <div className="h-48 w-full mb-4 overflow-hidden rounded-lg">
+          <div key={index} className="bg-white border border-gray-300 p-4 rounded-xl shadow-md">
+            <div className="h-48 w-full mb-4 overflow-hidden rounded-xl">
               <img src={event.url} alt={event.title} className="h-full w-full object-cover"/>
             </div>
             <h2 className="text-lg font-semibold mb-2">{event.title}</h2>

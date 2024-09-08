@@ -6,12 +6,12 @@ import Footer from "./customComponents/footer"
 function App() {
 
   return (
-    <>
+    <main className="bg-brandSecondary">
       <Navbar/>
       <Hero/>
       <Info/>
       <Footer/>
-    </>
+    </main>
   )
 }
 

@@ -48,6 +48,6 @@
     }
 
     .business-section-card{
-        @apply rounded-3xl shadow-2xl w-fit border-[1px] border-gray-300 py-1 px-2 flex justify-center items-center
+        @apply rounded-3xl shadow-md w-fit border border-gray-300 py-1 px-2 flex justify-center items-center
     }
   }
