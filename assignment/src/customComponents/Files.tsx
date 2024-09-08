@@ -27,7 +27,7 @@ const Files = () => {
   const hasMoreToShow = visibleEvents.length < events.length;
 
   return (
-    <main className="bg-white w-full rounded-xl mt-4 p-4">
+    <main className="bg-white w-full rounded-xl mt-4 mb-12 p-4">
       <h1 className="text-xl font-semibold mb-4">Files</h1>
 
       {/* Grid layout for cards */}
