@@ -1,7 +1,7 @@
 import Navbar from "./customComponents/Navbar"
 import Hero from "./customComponents/Hero"
 import Info from "./customComponents/Info"
-import Footer from "./customComponents/footer"
+import Footer from "./customComponents/Footer"
 
 function App() {
 

@@ -1,4 +1,3 @@
-import React from 'react'
 import ShimmerButton from '../components/magicui/shimmer-button'
 
 const Contact = () => {

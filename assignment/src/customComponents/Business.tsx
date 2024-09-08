@@ -1,5 +1,3 @@
-import React from "react";
-
 const Business = () => {
   return (
     <main className="relative z-10 w-full bg-white  rounded-xl mt-[-2rem] md:mt-[-4rem] p-4 h-fit">

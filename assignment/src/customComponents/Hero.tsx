@@ -1,5 +1,6 @@
-import React, { useState, MouseEvent } from "react";
 import ShimmerButton from "../components/magicui/shimmer-button"
+import '../styles/Hero.css'
+
 const Hero = () => {
   return (
     <main>
@@ -98,41 +99,6 @@ const Hero = () => {
 
         </div>
       </div>
-
-      {/* Media Query for Responsive Blur Transition */}
-      <style jsx>{`
-        .blur-overlay {
-          mask-image: linear-gradient(
-            to right,
-            black 0%,
-            black 40%,
-            transparent 100%
-          );
-          -webkit-mask-image: linear-gradient(
-            to right,
-            black 0%,
-            black 40%,
-            transparent 100%
-          );
-        }
-
-        @media (max-width: 767px) {
-          .blur-overlay {
-            mask-image: linear-gradient(
-              to top,
-              black 0%,
-              black 50%,
-              transparent 100%
-            );
-            -webkit-mask-image: linear-gradient(
-              to top,
-              black 0%,
-              black 50%,
-              transparent 100%
-            );
-          }
-        }
-      `}</style>
     </main>
   );
 };

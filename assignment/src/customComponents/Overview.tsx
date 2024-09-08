@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Overview = () => {
   return (
     <main className='bg-white rounded-xl p-4 w-full mt-[-3rem] h-fit'>
