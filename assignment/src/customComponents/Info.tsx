@@ -4,6 +4,7 @@ import Contact from './Contact'
 import Overview from './Overview'
 import PastEvents from './PastEvents'
 import Gallery from './Gallery'
+import Files from './Files'
 
 const Info = () => {
   return (
@@ -33,7 +34,7 @@ const Info = () => {
             <Business></Business>
             <Overview></Overview>
             <Gallery></Gallery>
-
+            <Files></Files>
         </section>
 
         <section className='flex flex-col space-y-4 basis-1/3'>

@@ -1,6 +1,7 @@
 import Navbar from "./customComponents/Navbar"
 import Hero from "./customComponents/Hero"
 import Info from "./customComponents/Info"
+import Footer from "./customComponents/footer"
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
       <Navbar/>
       <Hero/>
       <Info/>
+      <Footer/>
     </>
   )
 }
