@@ -4,6 +4,7 @@ import Contact from './Contact'
 import Overview from './Overview'
 import PastEvents from './PastEvents'
 import Gallery from './Gallery'
+import Members from './Members'
 
 const Info = () => {
   return (
@@ -28,17 +29,18 @@ const Info = () => {
     // </main>
 
 
-    <main className='bg-brandSecondary px-2 lg:px-16 xl:px-32 overflow-x-clip max-w-[99.1vw] h-full flex flex-col sm:flex-row space-x-4'>
-        <section className='flex flex-col space-y-4 basis-2/3'>
+    <main className='bg-brandSecondary px-2 lg:px-16 xl:px-32 overflow-x-clip max-w-[99.1vw] h-full flex flex-col sm:flex-row md:space-x-4'>
+        <section className='flex flex-col space-y-4 md:basis-2/3'>
             <Business></Business>
             <Overview></Overview>
-            <Gallery></Gallery>
+            {/* <Gallery></Gallery> */}
 
         </section>
 
-        <section className='flex flex-col space-y-4 basis-1/3'>
+        <section className='flex flex-col space-y-4 md:basis-1/3'>
             <Contact></Contact>
             <PastEvents></PastEvents>
+            <Members></Members>
         </section>
 
         

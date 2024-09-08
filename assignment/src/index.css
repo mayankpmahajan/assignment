@@ -38,4 +38,16 @@
     .info-separator{
         @apply h-6 mt-[-2px] border-s-[1px] opacity-60 hidden md:block
     }
+
+    .business-section-container{
+        @apply mt-4 font-medium
+    }
+
+    .business-section-card-container{
+        @apply flex flex-row space-x-2 text-sm mt-2 font-normal
+    }
+
+    .business-section-card{
+        @apply rounded-3xl shadow-2xl w-fit border-[1px] border-gray-300 py-1 px-2 flex justify-center items-center
+    }
   }

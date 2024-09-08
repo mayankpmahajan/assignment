@@ -3,7 +3,7 @@ import ShimmerButton from '../components/magicui/shimmer-button'
 
 const Contact = () => {
   return (
-    <main className='bg-white w-full relative z-10 mt-[-4rem] rounded-xl p-4'>
+    <main className='bg-white w-full relative z-10 mt-2 md:mt-[-4rem] rounded-xl p-4'>
 
         <h1 className='text-xl font-semibold' >Exhibhitor Contact</h1>
 
@@ -32,7 +32,7 @@ const Contact = () => {
                 <div className=''>Website</div>
                 <div className='col-span-2 font-medium flex flex-row space-x-2 items-center'>
                     <img src="./icons/link.png" alt="link icon" className='h-4' />
-                    <a href="www.zolonihere.com" className='text-blue-800'>www.zolonihere.com</a>
+                    <a href="/" className='text-blue-800'>www.zolonihere.com</a>
                 </div>
 
                 <div>Social</div>

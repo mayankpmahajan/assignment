@@ -5,37 +5,37 @@ const Business = () => {
     <main className="relative z-10 w-full bg-white  rounded-xl mt-[-2rem] md:mt-[-4rem] p-4 h-fit">
       <h1 className="text-xl font-semibold">Company's Business</h1>
 
-      <section className="mt-4 font-medium">
+      <section className="business-section-container">
         <h2>Company Type</h2>
 
-        <section className="flex flex-row space-x-2 text-sm mt-2 font-normal">
-          <div className="rounded-3xl shadow-2xl w-fit border-[1px] border-gray-300 py-1 px-2 flex justify-center items-center">Contact Manufacturing</div>
-          <div className="rounded-3xl shadow-2xl w-fit border-[1px] border-gray-300 py-1 px-2 flex justify-center items-center">Export</div>
-          <div className="rounded-3xl shadow-2xl w-fit border-[1px] border-gray-300 py-1 px-2 flex justify-center items-center">White Level Brands</div>
+        <section className="business-section-card-container">
+          <div className="business-section-card">Contact Manufacturing</div>
+          <div className="business-section-card">Export</div>
+          <div className="business-section-card">White Level Brands</div>
         </section>
       </section>
 
-      <section className="mt-4 font-medium">
+      <section className="business-section-container">
         <h2 className="">Product Categories</h2>
 
-        <section className="flex flex-row space-x-2 text-sm mt-2 font-normal" >
-          <div className="rounded-3xl shadow-2xl w-fit border-[1px] border-gray-300 py-1 px-2">Juices</div>
-          <div className="rounded-3xl shadow-2xl w-fit border-[1px] border-gray-300 py-1 px-2">Vegetables</div>
-          <div className="rounded-3xl shadow-2xl w-fit border-[1px] border-gray-300 py-1 px-2">Grain</div>
-          <div className="rounded-3xl shadow-2xl w-fit border-[1px] border-gray-300 py-1 px-2">Grain</div>
-          <div className="rounded-3xl shadow-2xl w-fit border-[1px] border-gray-300 py-1 px-2">Grain</div>
+        <section className="business-section-card-container" >
+          <div className="business-section-card">Juices</div>
+          <div className="business-section-card">Vegetables</div>
+          <div className="business-section-card">Grain</div>
+          <div className="business-section-card">Grain</div>
+          <div className="business-section-card">Grain</div>
         </section>
       </section>
 
-      <section className="mt-4 font-medium font-normal">
+      <section className="business-section-container">
         <h2>Product Items</h2>
 
-        <section className="flex flex-row space-x-2 text-sm mt-2">
-          <div className="rounded-3xl shadow-2xl w-fit border-[1px] border-gray-300 py-1 px-2">Item 01</div>
-          <div className="rounded-3xl shadow-2xl w-fit border-[1px] border-gray-300 py-1 px-2">Item 02</div>
-          <div className="rounded-3xl shadow-2xl w-fit border-[1px] border-gray-300 py-1 px-2">Item 03</div>
-          <div className="rounded-3xl shadow-2xl w-fit border-[1px] border-gray-300 py-1 px-2">Item 04</div>
-          <div className="rounded-3xl shadow-2xl w-fit border-[1px] border-gray-300 py-1 px-2">Item 05</div>
+        <section className="business-section-card-container">
+          <div className="business-section-card">Item 01</div>
+          <div className="business-section-card">Item 02</div>
+          <div className="business-section-card">Item 03</div>
+          <div className="business-section-card">Item 04</div>
+          <div className="business-section-card">Item 05</div>
         </section>
       </section>
     </main>
